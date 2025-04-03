@@ -52,6 +52,27 @@ while advanced_mode == 1:
     print('\n================================')
     print('Rock Paper Scissors Lizard Spock')
     print('================================')
+    print(f'[1] {options[1]}\n[2] {options[2]}\n[3] {options[3]}\n[4] {options[4]}\n[5] {options[5]}\n[6] Rules 📜')
+
+    player = int(input('🤔 Pick a number: '))
+
+    while player not in range(1,7):
+        print('\n⚠️ Invalid input, pick a number from 1 to 6')
+        player = int(input('🤔 Pick a number: '))
+
+    if player == 6:
+        print('\n=================================')
+        print('              Rules              ')
+        print('=================================')
+        print(f'{options[1]} beats {options[3]} and {options[4]}')
+        print(f'{options[2]} beats {options[1]} and {options[5]}')
+        print(f'{options[3]} beats {options[2]} and {options[4]}')
+        print(f'{options[4]} beats {options[2]} and {options[5]}')
+        print(f'{options[5]} beats {options[1]} and {options[3]}')
+
+    print('\n================================')
+    print('Rock Paper Scissors Lizard Spock')
+    print('================================')
     print(f'[1] {options[1]}\n[2] {options[2]}\n[3] {options[3]}\n[4] {options[4]}\n[5] {options[5]}')
 
     player = int(input('🤔 Pick a number: '))
