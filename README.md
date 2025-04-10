@@ -17,10 +17,10 @@ This is a simple Python script implementing the classic game of Rock Paper Sciss
 3.  **Run the script:** Open your terminal or command prompt, navigate to the project directory, and run the script using the following command:
 
     ```bash
-    python your_script_name.py
+    python rock_paper_scissors.py
     ```
 
-    *(Replace `your_script_name.py` with the actual name of the Python file if you've renamed it.)*
+    *(Replace `rock_paper_scissors.py` with the actual name of the Python file if you've renamed it.)*
 4.  **Follow the prompts:** The script will guide you through the game. Simply enter the number corresponding to your choice when prompted.
 
 ## Advanced Mode
